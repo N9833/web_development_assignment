@@ -1,0 +1,48 @@
+/* I targeted the body tag for change in font family */
+body {
+  font-family: Arial, sans-serif;
+}
+/* i targeted the a tag to amke change in color and text decoration*/
+a {
+  color: brown;            
+  text-decoration: none;   
+}
+
+
+
+a:hover {
+  color: orange;           
+  text-decoration: underline;
+}
+
+/* i targeted the image to make change in border and border radius*/
+img {
+  border: 2px solid black; 
+  border-radius: 50px;     
+}
+
+/* i targeted the table tag to make change in borfer collapse and width of img*/
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+th {
+  background-color: #f2d9d9;
+}
+
+tr:nth-child(even) {
+  background-color: #f9e6e6;
+}
+
+/* i targeted the ul tag to make changes in margin*/
+ul {
+  list-style-type: none; 
+  padding: 0;
+}
+li {
+  margin: 5px 0; 
+}
